@@ -1,0 +1,17 @@
+{
+  "author": "Daniel Tralamazza",
+  "name": "connect-throttle",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tralamazza/connect-throttle.git"
+  },
+  "dependencies": {
+    "connect": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "*"
+  }
+}
