@@ -1,6 +1,11 @@
 # Connect Throttle
 
-Request throttling using _sleep_
+## Installation
+
+    npm install connect-throttle
+
+
+## Request throttling using _sleep_
 
 ```js
 var connect = require('connect');
