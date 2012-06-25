@@ -6,9 +6,11 @@
 
     npm install connect-throttle
 
+Use it like any other `connect` middleware.
 
-## Request throttling using _sleep_
-Set a 1 second sleep:
+## HowTo throttle your requests
+
+*Example 1*: Set a fixed one second delay:
 
 ```js
 var connect = require('connect');
@@ -21,12 +23,11 @@ connect()
   }).listen(3000);
 ```
 
-Try:
+You can test using apache's `ab`:
 
     ab localhost:3000/
 
-
-You can also pass a function instead of a fixed value:
+*Example 2*: Random delay using a function instead of a fixed value:
 
 ```js
 var connect = require('connect');
@@ -38,4 +39,3 @@ connect()
     res.end('');
   }).listen(3000);
 ```
-
