@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/tralamazza/connect-throttle.png)](http://travis-ci.org/tralamazza/connect-throttle)
+
 # Connect Throttle
 
 ## Installation
