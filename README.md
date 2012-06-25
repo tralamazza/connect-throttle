@@ -8,6 +8,7 @@
 
 
 ## Request throttling using _sleep_
+Set a 1 second sleep:
 
 ```js
 var connect = require('connect');
@@ -25,7 +26,7 @@ Try:
     ab localhost:3000/
 
 
-Pass a function instead of a fixed value:
+You can also pass a function instead of a fixed value:
 
 ```js
 var connect = require('connect');
