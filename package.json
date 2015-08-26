@@ -8,7 +8,7 @@
     "url": "git://github.com/tralamazza/connect-throttle.git"
   },
   "dependencies": {
-    "connect": "*"
+    "pause": "^0.1.0"
   },
   "devDependencies": {
     "vows": "*",
